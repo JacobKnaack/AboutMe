@@ -6,6 +6,6 @@ var ready = confirm('wanna play?')
 var answer = null;
  if ( answer === ready ) {
      prompt ('What is my favorite color?')   
- }else(answer === null) {
+ }else {
      alert("fine...be that way")
  }
