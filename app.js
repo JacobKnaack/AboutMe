@@ -4,8 +4,8 @@ console.log('js is loaded');
 
 var ready = confirm('wanna play?')
 var answer = null;
- if ( answer === ready ) {
+ if ( answer === true ) {
      prompt ('What is my favorite color?')   
- }else {
+ }else ( answer === false) {
      alert("fine...be that way")
  }
