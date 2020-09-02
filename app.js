@@ -16,9 +16,7 @@ var answer5 = null;
 
 
 if (ready.toUpperCase() === 'Y') {
-    if(ready.toLowerCase() === 'N') {
-        alert('fine... have it your way..')
-    }
+
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
