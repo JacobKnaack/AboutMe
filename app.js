@@ -10,7 +10,7 @@ var answer3 = null;
 var answer4 = null;
 var answer5 = null;
 
-if (ready === 'Y') {
+if (ready.toUpperCase === 'Y') {
     answer1 = prompt('Am I from Tennessee?')
     if(answer1 ==='Y') {
         alert('Shoot Fire..')
