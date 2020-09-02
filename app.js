@@ -10,12 +10,41 @@ var answer3 = null;
 var answer4 = null;
 var answer5 = null;
 
-if (ready === 'Y'){
-answer1 = prompt('Am I from Tennessee?')
-answer2 = prompt('Did I used to live in a small town?')
-answer3 = prompt('Do I like VR systems?')
-answer4 = prompt('Do i like Software Development?')
-answer5 = prompt('Do I like games?')
+if (ready === 'Y') {
+    answer1 = prompt('Am I from Tennessee?')
+    if (answer1 === 'N'){
+        alert('Shoot Fire')
+    }
 
-} if (answer1 === 'N')
-alert("Shoot Fire...")
+
+    answer2 = prompt('Did I used to live in a small town?')
+    if(answer2 === 'N'){
+        alert('Dang..That aint it')
+    }
+
+
+
+
+    answer3 = prompt('Do I like VR systems?')
+    if(answer3 === 'N'){
+        alert('Game Over')
+    }
+
+
+
+
+    answer4 = prompt('Do i like Software Development?')
+    if(answer4 === 'N'){
+        alert('Why am I here?')
+    }
+
+
+
+
+
+    answer5 = prompt('Do I like games?')
+    if(answer5 === 'N'){
+        alert('but....everybody likes games ):' )
+    }
+
+} 
