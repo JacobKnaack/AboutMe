@@ -12,6 +12,7 @@ var answer5 = null;
 
 if (ready.toUpperCase() === 'Y') {
     answer1 = prompt('Am I from Tennessee? Y/N');
+    console.log('Still a country bumpkin')
     if(answer1 ==='Y') {
         alert('Shoot Fire..');
     }
@@ -21,6 +22,7 @@ if (ready.toUpperCase() === 'Y') {
 
 
     answer2 = prompt('Did I used to live in a small town? Y/N');
+    console.log('Everyone knows everybody!')
     if(answer2 === 'Y') {
         alert('Dang Skippy');
     }
@@ -32,6 +34,7 @@ if (ready.toUpperCase() === 'Y') {
 
 
     answer3 = prompt('Do I like VR systems? Y/N');
+    console.log('Things are getting real..')
     if(answer3 === 'Y') {
         alert('Out of this world!');
     }
@@ -43,6 +46,7 @@ if (ready.toUpperCase() === 'Y') {
 
 
     answer4 = prompt('Do i like Software Development? Y/N');
+    console.log('Coding is my game..')
     if(answer4 === 'Y') {
         alert('Lovin it!');
     }
@@ -54,12 +58,13 @@ if (ready.toUpperCase() === 'Y') {
 
 
 
-    answer5 = prompt('Do I like games? Y/N');
+    answer5 = prompt('Do I like Musicals? Y/N');
+    console.log('I am not throwin away my shot!')
     if(answer5 === 'Y') {
-        alert('Love em!');
+        alert('You are a mind at work!');
     }
     if(answer5 === 'N'){
-        alert('but....everybody likes games ):' );
+        alert('Noone mourns the Wicked.. ):' )
     }
 
 } 
