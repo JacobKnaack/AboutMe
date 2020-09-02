@@ -22,7 +22,8 @@ if (ready.toUpperCase() === 'Y') {
     if(answer1.toUpperCase() ==='Y') {
         alert('Shoot Fire..');
     }
-    if (answer1.toLowerCase() === 'N') {
+
+    if (answer1.toLowerCase() === 'n') {
         alert('Git R Done');
     }
 
@@ -32,7 +33,8 @@ if (ready.toUpperCase() === 'Y') {
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
     }
-    if(answer2.toLowerCase() === 'N') {
+
+    if(answer2.toLowerCase() === 'n') {
         alert('Dang..That aint it');
     }
 
@@ -44,7 +46,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer3.toUpperCase() === 'Y') {
         alert('Out of this world!');
     }
-    if(answer3.toLowerCase() === 'N'){
+    if(answer3.toLowerCase() === 'n'){
         alert('Game Over');
     }
 
@@ -56,7 +58,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer4.toUpperCase() === 'Y') {
         alert('Lovin it!');
     }
-    if(answer4.toLowerCase() === 'N'){
+    if(answer4.toLowerCase() === 'n'){
         alert('Where am I?');
     }
 
@@ -69,7 +71,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer5.toUpperCase === 'Y') {
         alert('You are a mind at work!');
     }
-    if(answer5.toLowerCase() === 'N'){
+    if(answer5.toLowerCase() === 'n'){
         alert('Noone mourns the Wicked.. ):' )
     }
 
