@@ -11,11 +11,11 @@ var answer4 = null;
 var answer5 = null;
 
 if (ready === 'Y'){
-answer1 = prompt('Do you like apples?')
-answer2 = prompt('Do you like dogs?')
-answer3 = prompt('Do you like chocolate milk?')
-answer4 = prompt('Do you long walks on the beach?')
-answer5 = prompt('Do you like games?')
+answer1 = prompt('Am I from Tennessee?')
+answer2 = prompt('Did I used to live in a small town?')
+answer3 = prompt('Do I like VR systems?')
+answer4 = prompt('Do i like Software Development?')
+answer5 = prompt('Do I like games?')
 
 } if (answer1 === 'N')
-alert("You are weird")
+alert("Shoot Fire...")
