@@ -67,6 +67,6 @@ if (ready.toUpperCase() === 'Y') {
         alert('Noone mourns the Wicked.. ):' )
     }
     var user = prompt('What is your name again?');
-     alert = ('Welcome, ' + user)
+     alert('Welcome, ' + user)
 
 } 
