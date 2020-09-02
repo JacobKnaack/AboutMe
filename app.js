@@ -12,12 +12,18 @@ var answer5 = null;
 
 if (ready === 'Y') {
     answer1 = prompt('Am I from Tennessee?')
-    if (answer1 === 'N'){
-        alert('Shoot Fire')
+    if(answer1 ==='Y') {
+        alert('Shoot Fire..')
+    }
+    if (answer1 === 'N') {
+        alert('Git R Done')
     }
 
 
     answer2 = prompt('Did I used to live in a small town?')
+    if(answer2 === 'Y') {
+        alert('Dang Skippy')
+    }
     if(answer2 === 'N'){
         alert('Dang..That aint it')
     }
@@ -26,6 +32,9 @@ if (ready === 'Y') {
 
 
     answer3 = prompt('Do I like VR systems?')
+    if(answer3 === 'Y') {
+        alert('Out of this world!')
+    }
     if(answer3 === 'N'){
         alert('Game Over')
     }
@@ -34,8 +43,11 @@ if (ready === 'Y') {
 
 
     answer4 = prompt('Do i like Software Development?')
+    if(answer4 === 'Y') {
+        alert('Lovin it!')
+    }
     if(answer4 === 'N'){
-        alert('Why am I here?')
+        alert('Where am I?')
     }
 
 
@@ -43,6 +55,9 @@ if (ready === 'Y') {
 
 
     answer5 = prompt('Do I like games?')
+    if(answer5 === 'Y') {
+        alert('Love em!')
+    }
     if(answer5 === 'N'){
         alert('but....everybody likes games ):' )
     }
