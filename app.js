@@ -17,5 +17,5 @@ answer3 = prompt('Do you like chocolate milk?')
 answer4 = prompt('Do you long walks on the beach?')
 answer5 = prompt('Do you like games?')
 
-
-} 
+} if (answer1 === 'Y')
+alert("yaas")
