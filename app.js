@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('js is loaded');
+console.log('the js is aliiive!');
 
 // Prompt the user
 var user = prompt('What is your name?');
@@ -16,6 +16,9 @@ var answer5 = null;
 
 
 if (ready.toUpperCase() === 'Y') {
+    if(ready.toLowerCase() === 'N') {
+        alert('fine... have it your way..')
+    }
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
@@ -26,7 +29,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 
-    answer2 = prompt('Did I used to live in a small town? Y/N');
+    answer2 = prompt('Did I use to live in a small town? Y/N');
     console.log('Everyone knows everybody!')
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
@@ -72,5 +75,5 @@ if (ready.toUpperCase() === 'Y') {
         alert('Noone mourns the Wicked.. ):' )
     }
 
-
+    alert('Welcome, ' + user);
 } 
