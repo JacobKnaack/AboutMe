@@ -10,56 +10,56 @@ var answer3 = null;
 var answer4 = null;
 var answer5 = null;
 
-if (ready.toUpperCase === 'Y') {
-    answer1 = prompt('Am I from Tennessee?')
+if (ready.toUpperCase() === 'Y') {
+    answer1 = prompt('Am I from Tennessee? Y/N');
     if(answer1 ==='Y') {
-        alert('Shoot Fire..')
+        alert('Shoot Fire..');
     }
     if (answer1 === 'N') {
-        alert('Git R Done')
+        alert('Git R Done');
     }
 
 
-    answer2 = prompt('Did I used to live in a small town?')
+    answer2 = prompt('Did I used to live in a small town? Y/N');
     if(answer2 === 'Y') {
-        alert('Dang Skippy')
+        alert('Dang Skippy');
     }
-    if(answer2 === 'N'){
-        alert('Dang..That aint it')
+    if(answer2 === 'N') {
+        alert('Dang..That aint it');
     }
 
 
 
 
-    answer3 = prompt('Do I like VR systems?')
+    answer3 = prompt('Do I like VR systems? Y/N');
     if(answer3 === 'Y') {
-        alert('Out of this world!')
+        alert('Out of this world!');
     }
     if(answer3 === 'N'){
-        alert('Game Over')
+        alert('Game Over');
     }
 
 
 
 
-    answer4 = prompt('Do i like Software Development?')
+    answer4 = prompt('Do i like Software Development? Y/N');
     if(answer4 === 'Y') {
-        alert('Lovin it!')
+        alert('Lovin it!');
     }
     if(answer4 === 'N'){
-        alert('Where am I?')
+        alert('Where am I?');
     }
 
 
 
 
 
-    answer5 = prompt('Do I like games?')
+    answer5 = prompt('Do I like games? Y/N');
     if(answer5 === 'Y') {
-        alert('Love em!')
+        alert('Love em!');
     }
     if(answer5 === 'N'){
-        alert('but....everybody likes games ):' )
+        alert('but....everybody likes games ):' );
     }
 
 } 
