@@ -4,7 +4,7 @@ console.log('the js is aliiive!');
 
 // Prompt the user
 var user = prompt('What is your name?');
-alert('Welcome, ' + user);
+
 
 var ready = prompt('wanna play a guessing game? Y/N');
 var answer1 = null;
