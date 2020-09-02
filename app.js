@@ -18,10 +18,10 @@ var answer5 = null;
 if (ready.toUpperCase() === 'Y') {
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
-    if(answer1 ==='Y') {
+    if(answer1.toUpperCase() ==='Y') {
         alert('Shoot Fire..');
     }
-    if (answer1 === 'N') {
+    if (answer1.toLowerCase() === 'N') {
         alert('Git R Done');
     }
 
@@ -31,7 +31,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
     }
-    if(answer2 === 'N') {
+    if(answer2.toLowerCase() === 'N') {
         alert('Dang..That aint it');
     }
 
@@ -43,7 +43,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer3.toUpperCase() === 'Y') {
         alert('Out of this world!');
     }
-    if(answer3 === 'N'){
+    if(answer3.toLowerCase() === 'N'){
         alert('Game Over');
     }
 
@@ -55,7 +55,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer4.toUpperCase() === 'Y') {
         alert('Lovin it!');
     }
-    if(answer4 === 'N'){
+    if(answer4.toLowerCase() === 'N'){
         alert('Where am I?');
     }
 
@@ -68,7 +68,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer5.toUpperCase === 'Y') {
         alert('You are a mind at work!');
     }
-    if(answer5 === 'N'){
+    if(answer5.toLowerCase() === 'N'){
         alert('Noone mourns the Wicked.. ):' )
     }
 
