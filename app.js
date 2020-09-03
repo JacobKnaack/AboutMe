@@ -84,11 +84,11 @@ if (ready.toUpperCase() === 'Y') {
             var gameTime = prompt("want to play another game?");
             if (gametime.tolowercase() === 'n'){
                 alert("fine then... I didn't want to play with you either...): ");
-            }
+                
+            }else if (gametime.toUpperCase() === 'Y') {
+                var playGame = prompt('I am thinking of a number between 1 and 100');
 
-            var playGame = prompt('I am thinking of a number between 1 and 100');
-
-            if (playGame === correctAnswer) {
+            }if (playGame === correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
                 break;
             }else if (playGame < correctAnswer) {
