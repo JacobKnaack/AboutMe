@@ -16,7 +16,6 @@ var answer5 = null;
 
 
 if (ready.toUpperCase() === 'Y') {
-
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
@@ -91,7 +90,7 @@ if (ready.toUpperCase() === 'Y') {
 
             }else if (playGame > correctAnswer) {
                 alert(" whoa... not that high..");
-                
+
             } if(i === 4){
                 alert(" You know what's funnier than 24?" + correctAnswer)
             }
