@@ -25,6 +25,7 @@ if (ready.toUpperCase() === 'Y') {
     if (answer1.toLowerCase() === 'n') {
         alert('Git R Done');
         score++;
+        console.log(score);
     }
 
 
