@@ -79,16 +79,17 @@ if (ready.toUpperCase() === 'Y') {
     
 } 
     var correctAnswer = 25;
+    var gameTime = prompt("want to play another game?");
 
-        for (var i =0; i < 4; i = i++) {
-            var gameTime = prompt("want to play another game?");
-            if (gametime.tolowercase() === 'n'){
-                alert("fine then... I didn't want to play with you either...): ");
-                
-            }else if (gametime.toUpperCase() === 'Y') {
-                var playGame = prompt('I am thinking of a number between 1 and 100');
+    if (gametime.tolowercase() === 'n'){
+        alert("fine then... I didn't want to play with you either...): ");
 
-            }if (playGame === correctAnswer) {
+    }else if (gametime.toUpperCase() === 'Y') {
+        
+            for (var i =0; i < 4; i = i++) {
+            var playGame = prompt('I am thinking of a number between 1 and 100');
+
+             if (playGame === correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
                 break;
             }else if (playGame < correctAnswer) {
@@ -97,7 +98,9 @@ if (ready.toUpperCase() === 'Y') {
             }else if (playGame > correctAnswer) {
                 alert(" whoa... not that high..");
 
-            } if (i === 4) {
+            } 
+            
+            if (i === 4) {
                 alert(" You know what's funnier than 24?" + correctAnswer);
             }
         }
