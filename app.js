@@ -119,10 +119,11 @@ if (ready.toUpperCase() === 'Y') {
     var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
    
         for (i = 0; i < 6; i++){
-        var question = prompt ('what are my favorite flowers?');  
+        var question = prompt ('what are my favorite flowers?'); 
+        console.log(question);
             for (i = 0; i < flowers.length; i++){
               if (flowers[i] === question ){
-                console.log (question)
+                console.log(flower);
               }
             }
     }
