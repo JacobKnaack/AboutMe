@@ -20,12 +20,11 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
         alert('Shoot Fire..');
-        score++;
-        console.log (score);
     }
 
     if (answer1.toLowerCase() === 'n') {
         alert('Git R Done');
+        score++
     }
 
 
@@ -117,4 +116,17 @@ if (ready.toUpperCase() === 'Y') {
             
         }
     }
+    var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
+   
+        for (i = 0; i < 6; i++){
+        var question = prompt ('what are my favorite flowers?');  
+            for (i = 0; i < flowers.length; i++){
+              if (flowers[i] === question ){
+                console.log (question)
+              }
+            }
+    }
+
+     
+
     alert('You got ' + score + ' right!')
