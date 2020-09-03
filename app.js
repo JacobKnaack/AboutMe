@@ -89,7 +89,7 @@ if (ready.toUpperCase() === 'Y') {
             for (var i =0; i < 4; i++) {
             var playGame = prompt('I am thinking of a number between 1 and 100');
 
-             if (playGame === correctAnswer) {
+             if (playGame == correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
                 break;
             }else if (playGame < correctAnswer) {
@@ -100,7 +100,7 @@ if (ready.toUpperCase() === 'Y') {
 
             } 
             
-            if (i === 4) {
+            if (i == 4) {
                 alert(" You know what's funnier than 24?" + correctAnswer);
             }
         }
