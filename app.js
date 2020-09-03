@@ -110,7 +110,7 @@ if (ready.toUpperCase() === 'Y') {
                 alert(" whoa... not that high..");
 
                 if (i == 4) {
-                    alert(" You know what's funnier than 24?" + correctAnswer);
+                    alert("You know what's funnier than 24? " + correctAnswer);
                 }
             } 
             
