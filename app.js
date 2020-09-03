@@ -87,9 +87,11 @@ if (ready.toUpperCase() === 'Y') {
                 alert('YAAAaAAAASSSSSS');
                 break;
             }else if (playGame < correctAnswer) {
-                alert('not quite high enough')
+                alert('not quite high enough');
+
             }else if (playGame > correctAnswer) {
-                alert(" whoa... not that high..")
+                alert(" whoa... not that high..");
+                
             } if(i === 4){
                 alert(" You know what's funnier than 24?" + correctAnswer)
             }
