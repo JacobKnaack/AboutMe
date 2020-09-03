@@ -81,7 +81,7 @@ if (ready.toUpperCase() === 'Y') {
     var correctAnswer = 25;
     var gameTime = prompt("want to play another game?");
 
-    if (gameTime.toLowercase() === 'n'){
+    if (gameTime.toLowerCase() === 'n'){
         alert("fine then... I didn't want to play with you either...): ");
 
     }else if (gameTime.toUpperCase() === 'Y') {
