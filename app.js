@@ -12,7 +12,7 @@ var answer2 = null;
 var answer3 = null;
 var answer4 = null;
 var answer5 = null;
-
+var score = 0;
 
 
 if (ready.toUpperCase() === 'Y') {
@@ -20,6 +20,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
         alert('Shoot Fire..');
+        score ++
     }
 
     if (answer1.toLowerCase() === 'n') {
@@ -31,6 +32,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Everyone knows everybody!')
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
+        score ++
     }
 
     if(answer2.toLowerCase() === 'n') {
@@ -44,6 +46,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Things are getting real..')
     if(answer3.toUpperCase() === 'Y') {
         alert('Out of this world!');
+        score ++
     }
     if(answer3.toLowerCase() === 'n'){
         alert('Game Over');
@@ -56,6 +59,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Coding is my game..')
     if(answer4.toUpperCase() === 'Y') {
         alert('Lovin it!');
+        score ++
     }
     if(answer4.toLowerCase() === 'n'){
         alert('Where am I?');
@@ -69,6 +73,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('I am not throwin away my shot!')
     if(answer5.toUpperCase === 'Y') {
         alert('You are a mind at work!');
+        score ++
     }
     if(answer5.toLowerCase() === 'n'){
         alert('Noone mourns the Wicked.. ):' )
@@ -79,7 +84,7 @@ if (ready.toUpperCase() === 'Y') {
     
 } 
     var correctAnswer = 25;
-    var gameTime = prompt("want to play another game?");
+    var gameTime = prompt("want to play different game?");
 
     if (gameTime.toLowerCase() === 'n'){
         alert("fine then... I didn't want to play with you either...): ");
@@ -105,3 +110,4 @@ if (ready.toUpperCase() === 'Y') {
             
         }
     }
+    alert('You got ' + score + ' right!')
