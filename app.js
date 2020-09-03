@@ -24,7 +24,7 @@ if (ready.toUpperCase() === 'Y') {
 
     if (answer1.toLowerCase() === 'n') {
         alert('Git R Done');
-        score++;
+        ++score;
         console.log(score);
     }
 
@@ -33,7 +33,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Everyone knows everybody!')
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
-        score++;
+        ++score;
         console.log(score);
     }
 
@@ -48,7 +48,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Things are getting real..')
     if(answer3.toUpperCase() === 'Y') {
         alert('Out of this world!');
-        score++;
+        ++score;
         console.log(score);
     }
     if(answer3.toLowerCase() === 'n'){
@@ -62,7 +62,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Coding is my game..')
     if(answer4.toUpperCase() === 'Y') {
         alert('Lovin it!');
-        score++;
+        ++score;
         console.log(score);
     }
     if(answer4.toLowerCase() === 'n'){
@@ -77,7 +77,7 @@ if (ready.toUpperCase() === 'Y') {
     console.log('I am not throwin away my shot!')
     if(answer5.toUpperCase() === 'Y') {
         alert('You are a mind at work!');
-        score++;
+       ++score;
         console.log(score);
     }
     if(answer5.toLowerCase() === 'n'){
@@ -91,7 +91,7 @@ if (ready.toUpperCase() === 'Y') {
     var correctAnswer = 25;
     var gameTime = prompt("want to play different game?");
 
-    if (gameTime.toLowerCase() === 'n'){
+    if (gameTime.toLowerCase() === 'n' || .toLowerCase() === 'no'){
         alert("fine then... I didn't want to play with you either...): ");
 
     }else if (gameTime.toUpperCase() === 'Y') {
@@ -101,7 +101,7 @@ if (ready.toUpperCase() === 'Y') {
 
              if (playGame == correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
-                score++;
+                ++score;
                 console.log(score);
                 break;
             }else if (playGame < correctAnswer) {
@@ -110,21 +110,22 @@ if (ready.toUpperCase() === 'Y') {
             }else if (playGame > correctAnswer) {
                 alert(" whoa... not that high..");
 
-                if (i == 4) {
-                    alert("You know what's funnier than 24? " + correctAnswer);
-                }
             } 
-            
-        }
+            if (i == 3) {
+                alert("You know what's funnier than 24? " + correctAnswer);
+            } 
+        }  
     }
     var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
    
-        for (var i = 0; i < 6; i++){
+        loop1: for (var i = 0; i < 6; i++){
         var question = prompt ('what are my favorite flowers?'); 
         console.log(question);
-            for (i = 0; i < flowers.length; i++){
-                console.log(flowers[i]);
-              if (flowers[i] === question ){
+            loop2: for (j = 0; j < flowers.length; j++){
+                console.log(flowers[j]);
+              if (flowers[j] === question ){
+                  alert('Correct!!');
+                  ++score;
                 console.log(flowers);
               }
             }
