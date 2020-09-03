@@ -20,7 +20,8 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y') {
         alert('Shoot Fire..');
-        score ++
+        score++;
+        console.log (score);
     }
 
     if (answer1.toLowerCase() === 'n') {
@@ -32,7 +33,8 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Everyone knows everybody!')
     if(answer2.toUpperCase() === 'Y') {
         alert('Dang Skippy');
-        score ++
+        score++;
+        console.log(score);
     }
 
     if(answer2.toLowerCase() === 'n') {
@@ -46,7 +48,8 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Things are getting real..')
     if(answer3.toUpperCase() === 'Y') {
         alert('Out of this world!');
-        score ++
+        score++;
+        console.log(score);
     }
     if(answer3.toLowerCase() === 'n'){
         alert('Game Over');
@@ -59,7 +62,8 @@ if (ready.toUpperCase() === 'Y') {
     console.log('Coding is my game..')
     if(answer4.toUpperCase() === 'Y') {
         alert('Lovin it!');
-        score ++
+        score++;
+        console.log(score);
     }
     if(answer4.toLowerCase() === 'n'){
         alert('Where am I?');
@@ -71,9 +75,10 @@ if (ready.toUpperCase() === 'Y') {
 
     answer5 = prompt('Do I like Musicals? Y/N');
     console.log('I am not throwin away my shot!')
-    if(answer5.toUpperCase === 'Y') {
+    if(answer5.toUpperCase() === 'Y') {
         alert('You are a mind at work!');
-        score ++
+        score++;
+        console.log(score);
     }
     if(answer5.toLowerCase() === 'n'){
         alert('Noone mourns the Wicked.. ):' )
@@ -96,7 +101,8 @@ if (ready.toUpperCase() === 'Y') {
 
              if (playGame == correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
-                score ++
+                score++;
+                console.log(score);
                 break;
             }else if (playGame < correctAnswer) {
                 alert('not quite high enough');
