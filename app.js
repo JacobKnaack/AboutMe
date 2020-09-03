@@ -86,7 +86,7 @@ if (ready.toUpperCase() === 'Y') {
 
     }else if (gametime.toUpperCase() === 'Y') {
         
-            for (var i =0; i < 4; i = i++) {
+            for (var i =0; i < 4; i++) {
             var playGame = prompt('I am thinking of a number between 1 and 100');
 
              if (playGame === correctAnswer) {
