@@ -104,3 +104,4 @@ if (ready.toUpperCase() === 'Y') {
                 alert(" You know what's funnier than 24?" + correctAnswer);
             }
         }
+    }
