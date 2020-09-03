@@ -96,6 +96,7 @@ if (ready.toUpperCase() === 'Y') {
 
              if (playGame == correctAnswer) {
                 alert('YAAAaAAAASSSSSS');
+                score ++
                 break;
             }else if (playGame < correctAnswer) {
                 alert('not quite high enough');
