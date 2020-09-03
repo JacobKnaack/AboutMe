@@ -98,10 +98,10 @@ if (ready.toUpperCase() === 'Y') {
             }else if (playGame > correctAnswer) {
                 alert(" whoa... not that high..");
 
+                if (i == 4) {
+                    alert(" You know what's funnier than 24?" + correctAnswer);
+                }
             } 
             
-            if (i == 4) {
-                alert(" You know what's funnier than 24?" + correctAnswer);
-            }
         }
     }
